@@ -2,11 +2,11 @@ loopy()
  function loopy() { 
  var sWord ="LostX" 
  while (sWord != "1") {// Pass
- sWord = prompt("𝘌𝘯𝘵𝘦𝘳 𝘛𝘩𝘦 𝘒𝘦𝘺 :")  
+ sWord = prompt(" ≫  𝐄𝐧𝐭𝐞𝐫 𝐓𝐡𝐞 𝐊𝐞𝐲 ")  
  } 
  
 //confirm("ok");
 
-window.alert("  𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐏𝐀𝐍𝐄𝐋 𝐈𝐎𝐒 ");
+window.alert(" ⪼  𝐖𝐚𝐥𝐜𝐨𝐦 𝐓𝐨 𝐏𝐚𝐧𝐞𝐥 𝐋𝐨𝐬𝐭𝐗  ");
 
  } 
