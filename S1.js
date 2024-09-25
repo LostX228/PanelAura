@@ -524,7 +524,7 @@ alert("Antiban Chỉ Bật Ko Thể Tắt");
 
 }
             function V5() {
-    h5gg.editAll('4397530849780414897', 'I128');
+    h5gg.editAll('4397530849780414897', 'I32');
     vant.showNotify({
         type: 'success',
         message: 'X5'
@@ -533,7 +533,7 @@ alert("Antiban Chỉ Bật Ko Thể Tắt");
 }
 
               function V7() {
-    h5gg.editAll('4397530849795414897', 'I192');
+    h5gg.editAll('4397530849795414897', 'I16');
     vant.showNotify({
         type: 'success',
         message: 'X7'
