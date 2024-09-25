@@ -534,7 +534,7 @@ function DNS() {
     });
 }
 
-function speedX2(input) {//ghost
+function speedX2() {
     if (input.checked) {
 h5gg.clearResults();
 h5gg.searchNumber('4397530849764387586','I64','0x100000000', '0x160000000');
@@ -551,7 +551,7 @@ h5gg.editAll('4397530849758414897', 'I64');
     });
 
       
-function speedX5(input) {//ghost
+function speedX5() {//ghost
     if (input.checked) {
 h5gg.clearResults();
 h5gg.searchNumber('4397530849764387586','I64','0x100000000', '0x160000000');
@@ -567,7 +567,7 @@ h5gg.editAll('4397530849758414897', 'I64');
         message: 'X5 Off '
     });
 
-      function speedX7(input) {//ghost
+      function speedX7() {//ghost
     if (input.checked) {
 h5gg.clearResults();
 h5gg.searchNumber('4397530849764387586','I64','0x100000000', '0x160000000');
