@@ -463,30 +463,41 @@ function modifyValue7(searchValue, replaceValue, addressEndsWith, addressEndsWit
 	}
 
 
-function Bypass (){//anti
-    if (input.checked) {
-h5gg.clearResults();
-modifyValue(-1042808832,1120403456,'');
-vant.showNotify({
-        type: 'success',
-        message: 'Bypass'
-    });
-
-    }
-}
-function Login (){//anti
+function fs1(input) {//anti
     if (input.checked) {
 h5gg.clearResults();
 modifyValue(134402, 84148993, '');
 modifyValue(132228, 133890, '');
 modifyValue(132176, 133890, '');
-vant.showNotify({
+h5gg.clearResults();
+alert("Antiban Lobby On");        
+h5gg.clearResults();
+codeStatus = true;
+    } else {      
+alert("Antiban Chỉ Bật Ko Thể Tắt");
+        codeStatus = false;
+	        vant.showNotify({
+        type: 'success',
+        message: 'Bypass'
+    });
+    }
+}
+
+function fs0(input) {//anti
+    if (input.checked) {
+h5gg.clearResults();
+modifyValue(-1042808832,1120403456,'');
+alert("Antiban Login On");        
+h5gg.clearResults();
+        codeStatus = true;
+    } else {      
+alert("Antiban Chỉ Bật Ko Thể Tắt");
+        codeStatus = false;
+	        vant.showNotify({
         type: 'success',
         message: 'Anti Cheat'
     });
-
-
-}
+    }
 }
 
 
@@ -505,7 +516,7 @@ vant.showNotify({
 }
 
       function V2() {
-    h5gg.editAll('4397530849758414897', 'I64');
+    h5gg.editAll('4397530849758414897', 'I32');
     vant.showNotify({
         type: 'success',
         message: 'X2'
@@ -513,7 +524,7 @@ vant.showNotify({
 
 }
             function V5() {
-    h5gg.editAll('4397530849780414897', 'I64');
+    h5gg.editAll('4397530849780414897', 'I448');
     vant.showNotify({
         type: 'success',
         message: 'X5'
@@ -545,4 +556,27 @@ vant.showNotify({
         type: 'success',
         message: 'DNS Done(6ebec7)'
     });
+}
+
+
+var codeStatus = false;
+function modifyValue(searchValue, replaceValue, addressEndsWith, addressEndsWith2, alertMessage) {
+    h5gg.clearResults();
+    h5gg.searchNumber(searchValue, 'I32', '0x10000000', '0x160000000');
+    const results = h5gg.getResults(h5gg.getResultsCount());
+    let modifiedCount = 0;
+    results.forEach(result => {
+        if (result.address.endsWith(addressEndsWith) || result.address.endsWith(addressEndsWith2)) {
+            h5gg.setValue(result.address, replaceValue.toString(), 'I32');
+            modifiedCount++;
+            
+           
+
+        }
+    });
+    if (modifiedCount > 0) {
+        if (alertMessage) alert(alertMessage);
+    } else if (alertMessage) {
+        alert("Lỗi");
+    }
 }
