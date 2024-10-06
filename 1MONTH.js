@@ -1,5 +1,5 @@
 function getUserCredentials() {
-    var correctUsername = "Angel"; // اسم المستخدم الصحيح
+    var correctUsername = "123321123"; // اسم المستخدم الصحيح
     var correctPassword = "1"; // كلمة المرور الصحيحة
 
     while (true) {
@@ -11,7 +11,7 @@ function getUserCredentials() {
                 alert("Walcom To Panel LostX  Angel ⇰ (1 Month ) ");
                 break; // الخروج من الحلقة إذا كانت المدخلات صحيحة
             } else {
-                alert("The Passwoord Or Username is Error");
+                alert("KEY THE PANEL 1MONTH IS END / BUY NEW KEY : @TheLostX");
             }
         } else {
             alert("You Didn't Enter Passwoord Or Username ");
