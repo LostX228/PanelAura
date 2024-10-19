@@ -1,6 +1,6 @@
 function getUserCredentials() {
-    var correctUsername = "LostX"; // اسم المستخدم الصحيح
-    var correctPassword = "1"; // كلمة المرور الصحيحة
+    var correctUsername = "01010"; // اسم المستخدم الصحيح
+    var correctPassword = "11"; // كلمة المرور الصحيحة
 
     while (true) {
         var username = prompt("𝘌𝘯𝘵𝘦𝘳 𝘜𝘴𝘦𝘳𝘯𝘢𝘮𝘦 :");
@@ -8,7 +8,7 @@ function getUserCredentials() {
 
         if (username && password) {
             if (username === correctUsername && password === correctPassword) {
-                alert("Walcom To Panel LostX (Luis W9 ) ");
+                alert("Walcom To Panel LostX ");
                 break; // الخروج من الحلقة إذا كانت المدخلات صحيحة
             } else {
                 alert("KEY THE PANEL IS ERROR / BUY NEW KEY : @TheLostX");
